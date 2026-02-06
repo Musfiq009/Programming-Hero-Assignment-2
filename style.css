@@ -78,6 +78,7 @@
   font-size: 16px;
   font-weight: 600;
   border: none;
+  transition: all 0.1s ease;
 }
 .header-img .background {
   z-index: 1;
@@ -325,6 +326,13 @@ iframe {
 }
 .nav-button img {
   display: none;
+}
+button:hover {
+  border: 2px solid #fb09b4;
+  background: transparent;
+}
+.transparent:hover {
+  box-shadow: 0 0 15px 5px #00ff88;
 }
 @media screen and (max-width: 576px) {
   .Nav-bar {
