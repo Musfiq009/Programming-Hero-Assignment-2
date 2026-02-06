@@ -323,3 +323,137 @@ iframe {
   display: flex;
   gap: 8px;
 }
+.nav-button img {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .Nav-bar {
+    padding: 16px 20px;
+  }
+  .nav-list ul {
+    display: none;
+  }
+  .nav-button button{
+    display: none;
+  }
+  .nav-button img {
+    display: flex;
+  }
+  .Nav-bar .nav-bar-text h3 {
+    font-size: 30px ;
+  }
+  .Header {
+    background-size: 150% 150%;
+    background-position:center center ;
+    padding: 0;
+  }
+  .header-container {
+    padding: 40px 20px;
+  }
+  .header-img .background {
+    max-width: 200px;
+  }
+  .header-img .foreground {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  #badge {
+    right: -5% ;
+  }
+  .header-content h1 {
+    font-size: 40px;
+  }
+  .About {
+    padding: 40px 20px;
+  }
+  .section-heading {
+    font-size: 32px;
+  }
+  .about-details-container .para{
+    line-height: normal;
+  }
+  hr {
+    margin: 40px 0;
+  }
+  .summary {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+ .summary .summary-card h2 {
+    font-size: 40px;
+  }
+  .Feature {
+    padding: 40px 20px;
+    gap: 16px;
+  }
+  .feature-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .feature-card {
+    padding: 24px;
+  }
+  .card-heading {
+    font-size: 22px;
+  }
+  .feature-card .para-line-hight {
+    line-height: 1.4;
+  }
+  .Content {
+    padding: 40px 20px;
+  }
+  .episode-card-container {
+    margin-top: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: 100%;
+  }
+  .episode-detail {
+    gap: 8px;
+    padding: 16px;
+  }
+  .episode-detail .card-heading {
+    font-size: 20px;
+  }
+  .episode-detail .para-line-hight {
+    line-height: 1.4;
+  }
+  .host-container{
+    margin-top: 60px;
+  }
+  .host-container .section-heading {
+    margin-bottom: 24px;
+  }
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+  }
+  .host-card .host-img {
+    max-width: 150px;
+  }
+  .social-logo-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .host-card-content h3 {
+    font-size: 24px;
+  }
+  .Footer {
+    padding: 40px 20px;
+    gap: 24px;
+    background-size: 150% 100%;
+  }
+  .Footer h1 {
+    font-size: 48px;
+  }
+  .Footer .social-media-footer {
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 255px;
+    justify-content: center;
+    align-items: center;
+  }
+}
